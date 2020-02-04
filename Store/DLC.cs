@@ -8,5 +8,16 @@ namespace Store
 {
     class DLC
     {
+        string name;
+        float price;
+        Game parentGame;
+        string description;
+        
+        public DLC(string name, string description, float price)
+        {
+            this.name = name;
+            this.description = description;
+            this.price = price;
+        }
     }
 }
